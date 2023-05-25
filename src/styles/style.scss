@@ -1,0 +1,11 @@
+// Override variables
+@import 'variables';
+
+$enable-ltr: true;
+$enable-rtl: true;
+
+// Import styles
+@import './node_modules/@coreui/coreui/scss/coreui';
+
+// Import Chart.js Tooltips
+@import './node_modules/@coreui/chartjs/scss/tooltips';

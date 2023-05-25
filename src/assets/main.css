@@ -1,0 +1,21 @@
+@import './base.css';
+
+#app {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(243, 243, 243);
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+
+  color: grey;
+  transition: 0.4s;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
